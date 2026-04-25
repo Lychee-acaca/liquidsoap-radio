@@ -1,6 +1,6 @@
 # liquidsoap-radio
 
-A minimal internet radio system built with Liquidsoap + Icecast, controlled via a simple Python CLI for queue-based playback.
+A minimal internet radio system built with [phasecorex/liquidsoap](https://hub.docker.com/r/phasecorex/liquidsoap) + [moul/icecast](https://hub.docker.com/r/moul/icecast), controlled via a simple Python CLI for queue-based playback.
 
 ## 🚀 Quick Start
 
