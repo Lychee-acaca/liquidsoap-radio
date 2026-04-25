@@ -13,12 +13,7 @@ cd liquidsoap-radio
 
 ### 2. Add music files
 
-Put your audio files into the music/ directory:
-
-```bash
-mkdir -p music
-cp your_music_files/* music/
-```
+Put your audio files into the `music/` directory.
 
 Supported formats:
 
@@ -36,6 +31,14 @@ This will start:
 
 - Liquidsoap streaming server
 - Icecast streaming server
+
+After starting the system, open:
+
+http://0.0.0.0:8123/radio
+
+If the system is running correctly, audio should start streaming immediately.
+
+To change the default port, edit `docker-compose.yml`.
 
 ### 4. Run the controller
 
